@@ -11,9 +11,9 @@ pipeline {
 
 
     // Tool configuration
-    tools {
-        maven null  // Configure this in Jenkins Global Tool Configuration
-    }
+    //tools {
+    //    maven 3.9  // Configure this in Jenkins Global Tool Configuration
+    //}
 
     stages {
         stage('Initialize') {
